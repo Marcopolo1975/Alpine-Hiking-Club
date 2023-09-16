@@ -22,10 +22,24 @@ body{
         sans-serif;
 }
 
-
 /*header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: darkblue;
+
+    
 }
 
 /*Main content*/
