@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -18,6 +18,14 @@ body {
     color: #3a3a3a;
     font-family: 'roboto', sans-serif;
 }
+
+h2 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white
+    }
 
 /* Header */
 header {
@@ -38,15 +46,11 @@ header a {
 }
 
 h1 {
-    font-family:"proxima-nova",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family:'Roboto Slab', serif;
     font-weight:bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: darkblue;
+    color: darkgreen;
 }
 
 #menu {
@@ -91,12 +95,71 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+   
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/* hiking image section*/
+#hiking{
+    height: 600px;
+        width: 100%;
+        background: url("../images/Le+Tour+Hikers+Chamonix+Valley_2000x_rs.jpg") no-repeat center center/cover;
+        position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: none;
+
+    font-size: 130%;
+    position:absolute ;
+    bottom: 30px;
+    min-height: 500px;
+    padding: 0 px;
+    padding-left: 10px;
+    text-align: center;
+     
+}
+
+#cover-text h4 {
+    color: #ffffff;
+}
+
+/* goals aection */
+
+#goals {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#goals h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+    color: #3a3a3a;
+}
+
+#hikes > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#hikes p {
+    padding: 0 20px;
+}
+
+#hikes hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/*.box {
+    width: 300px;
+    margin: 50px;
+    display: table;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -147,6 +210,19 @@ main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+         /* hiking image */
+         #cover-text {
+            font-size: 150%;
+             width: 800px;
+             right: 300px;
+             min-height: 500px;
+             
+         }
+         #cover-text h4 {
+           
+            padding-left: 10px;
+         }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
