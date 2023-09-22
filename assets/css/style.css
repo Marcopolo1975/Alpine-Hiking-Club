@@ -16,11 +16,11 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family:"proxima-nova","Helvetica Neue", Helvetica, Arial,sans-serif;                                                            ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    /*border-bottom: 1px solid #3a3a3a;*/
 }
 
 /* Navbar styles with dropdown toggle */
@@ -185,7 +185,7 @@ main {
 #alps {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-quang-nguyen-vinh-2161920.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-andrei-tanase-1271619.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -261,6 +261,15 @@ main {
      flex-basis: 200px;
      flex-grow: 1;
      
+}
+
+.register-button {
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 100%;
+    background-color:white;
+    text-decoration: none;
 }
 
 #upcoming h3 {
