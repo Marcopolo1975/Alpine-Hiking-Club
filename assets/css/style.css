@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -16,11 +16,11 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'roboto', sans-serif;
+    font-family:"proxima-nova","Helvetica Neue", Helvetica, Arial,sans-serif;                                                            ;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -91,6 +91,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    
 }
 
 /* Main content */
@@ -105,7 +106,7 @@ main {
 #alps {
     height: 600px;
     width: 100%;
-    background: url("../images/Le+Tour+Hikers+Chamonix+Valley_2000x_rs.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-quang-nguyen-vinh-2161920.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -126,6 +127,7 @@ main {
 
 #cover-text h4 {
     color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* goals aection */
@@ -143,31 +145,63 @@ main {
 }
 /* hikes section*/
     
-
-#hikes>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-
-    
-
-   
-}
-
-#hikes p {
-    padding: 0 20px;
-}
-
-#hikes hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+#hikes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
 
 }
 
-.box {
-    /**/
-    width: 250px;
+#hikes div {
+    padding: 15px;
+    text-align: center;
+
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+#hikes h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Upcoming Events section*/
+#events {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+
+}
+
+#events div {
+     padding: 15px;
+     text-align: center;
+
+     flex-basis: 200px;
+     flex-grow: 1;
+     
+}
+
+#upcoming h3 {
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+/* gallery page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    border: 5px solid hsl(0, 26%, 96%);
+
     
-    
+}
+
+#photos {
+    line-height: 0;
+
 }
 /* Footer */
 #social-networks {
@@ -183,6 +217,19 @@ main {
     padding: 5%;
     color: darkblue;
 }
+/*gallery page*/
+/* Media query: larg or landscape phones(576 and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    
+
+    
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -244,6 +291,21 @@ main {
             flex-direction: row;
             margin-inline: auto;
         }
+
+        #events {
+            display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                margin-inline: auto;
+        }
+
+        /* Gallery */
+        #photos {
+            column-count: 3;
+        }
+    
+        
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -254,5 +316,10 @@ main {
 
     #cover-text {
         text-align: center;
+    }
+
+    /* Gallery*/
+    #photos {
+        column-count: 4;
     }
 }
