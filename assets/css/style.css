@@ -330,6 +330,18 @@ footer {
 
 }
 /* Footer */
+.container {
+    display: flex;
+}
+.contact {
+   
+    flex-grow: 1;
+    padding-left: 20px;
+}
+.social {
+   
+    flex-grow: 1;
+}
 #social-networks  {
     text-align: center;
     padding: 20px 0;
