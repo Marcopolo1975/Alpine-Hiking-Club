@@ -205,8 +205,8 @@ main {
 #alps {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-stefan-petrov-14269731.jpg") no-repeat center center/cover;
-    position: relative;
+    background: url("../images/alps.jpg") no-repeat center center/cover;
+        position: relative;
 }
 
 #cover-text {
@@ -214,11 +214,7 @@ main {
     background-color: none;
 
     font-size: 130%;
-    /*position: absolute;
-    bottom: 30px;
-    min-height: 500px;
-    padding: 0 px;
-    padding-left: 10px;*/
+    
     text-align: center;
     padding-top: 40px;
 
@@ -335,6 +331,8 @@ main {
     padding: 5%;
     color: darkblue;
 }
+
+
 /*gallery page*/
 /* Media query: larg or landscape phones(576 and up)*/
 @media screen and (min-width: 576px) {
@@ -342,9 +340,6 @@ main {
         column-count: 2;
         column-gap: 0;
     }
-
-    
-
     
 }
 
