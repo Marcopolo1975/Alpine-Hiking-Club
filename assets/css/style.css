@@ -310,16 +310,21 @@ main {
 
 }
 /* Footer */
-#social-networks {
+#social-networks  {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style-type: none;
 }
 
+#social-networks li {
+    padding-left: 10px;
+    padding-right: 45px;
+}
+
 #social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     padding: 5%;
     color: darkblue;
 }
