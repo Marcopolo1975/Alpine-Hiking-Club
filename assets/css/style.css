@@ -37,11 +37,13 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: none;
+    box-shadow: 0 2px 2px #3a3a3a;;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     min-height: 70px;
+
+
 }
 
 header a {
@@ -117,6 +119,10 @@ main {
     flex-direction: column;
 }
 
+.box img {
+    width:100%
+    ;
+}
 
 
 /* Form */
@@ -175,6 +181,11 @@ main {
     color: #fafafa;
 }
 
+footer {
+    border: 2px solid #3a3a3a;
+    border-style: double;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     
@@ -211,10 +222,8 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: none;
 
     font-size: 130%;
-    
     text-align: center;
     padding-top: 40px;
 
@@ -271,6 +280,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    
 
 }
 
@@ -280,17 +290,24 @@ main {
 
      flex-basis: 200px;
      flex-grow: 1;
+     border: 2px solid #3a3a3a;
+     
+    
+
+     
      
 }
 
-.register-button {
+#events a {
     margin-top: 0;
-    border-radius: 10px;
-    padding: 4px 4px;
+    border: #3a3a3a;
+    border-radius: 0;
+    padding: 10px 10px;
     font-size: 80%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:white;
+    font-family: lato, sans-serif;
+    background-color: black;
     text-decoration: none;
+    color: #fafafa;
 }
 
 #upcoming h3 {
