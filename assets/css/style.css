@@ -1,6 +1,4 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
-
   @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
 
@@ -27,7 +25,10 @@ h2 {
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white
+    color:white;
+    
+   
+    
 }
 
 /* Header */
@@ -124,10 +125,34 @@ main {
     ;
 }
 
+#cover-text h2 {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+  
+    text-align:center;
+    padding-top: 40px;
+  
+}
+
+#cover-text h4 {
+    text-align: center;
+    color:rgb(0, 255, 251);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* Alps image section*/
+#alps {
+    height: 300px;
+    width: 100%;
+    background: url("../images/pexels-pixabay-273003.webp") no-repeat center center/cover;
+        position: relative;
+        
+}
+
 
 /* Form */
 #signup {
-    background-image: url("../images/pexels-andrei-tanase-1271619.jpg");
+    background-image: url("../images/pexels-andrei-tanase-1271619.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -182,55 +207,6 @@ main {
 
 
 
-/* Footer */
-
-footer {
-    border: 2px solid #3a3a3a;
-     border-style: double;
- }
-
- #contact {
-    text-align: center;
-    margin-top: 5px;
-    text-decoration: underline;
- }
-
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 200%;
-    padding: 5%;
-    color: darkblue;
-
-}
-
-/* Alps image section*/
-#alps {
-    height: 600px;
-    width: 100%;
-    background: url("../images/pexels-joseph-phillips-3753669.jpg") no-repeat center center/cover;
-        position: relative;
-}
-
-#cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-
-    font-size: 130%;
-    text-align: center;
-    padding-top: 40px;
-
-}
-
-#cover-text h4 {
-    color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 /* goals aection */
 
@@ -327,6 +303,34 @@ footer {
 
 }
 
+/* Footer */
+
+footer {
+    border: 2px solid #3a3a3a;
+     border-style: double;
+ }
+
+ #contact {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+ }
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 200%;
+    padding: 5%;
+    color: darkblue;
+
+}
+
 /*gallery page*/
 /* Media query: larg or landscape phones(576 and up)*/
 @media screen and (min-width: 576px) {
@@ -377,6 +381,13 @@ footer {
     }
 
     /* hiking image */
+
+    /* Alps image section*/
+#alps {
+    height: 600px;
+    width: 100%;
+    
+}
     #cover-text {
         font-size: 150%;
         /* width: 800px;
