@@ -144,7 +144,6 @@ main {
     padding: 30px;
     margin-top: 10px;
 
-    
 
 }
 
@@ -182,36 +181,27 @@ main {
 }
 
 footer {
-    border: 2px solid #3a3a3a;
+   border: 2px solid #3a3a3a;
     border-style: double;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    
+/* Footer */
 
-    /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 60px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i {
+    font-size: 200%;
+    padding: 5%;
+    color: darkblue;
+
+}
+
 /* Alps image section*/
 #alps {
     height: 600px;
@@ -254,6 +244,7 @@ footer {
 /* hikes section*/
     
 #hikes {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -275,13 +266,15 @@ footer {
     justify-content: center;
 }
 
+
+
 /* Upcoming Events section*/
 #events {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
     
-
 }
 
 #events div {
@@ -291,11 +284,7 @@ footer {
      flex-basis: 200px;
      flex-grow: 1;
      border: 2px solid #3a3a3a;
-     
-    
-
-     
-     
+         
 }
 
 #events a {
@@ -329,38 +318,6 @@ footer {
     line-height: 0;
 
 }
-/* Footer */
-.container {
-    display: flex;
-}
-.contact {
-   
-    flex-grow: 1;
-    padding-left: 20px;
-}
-.social {
-   
-    flex-grow: 1;
-}
-#social-networks  {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-
-#social-networks li {
-    padding-left: 10px;
-    padding-right: 35px;
-}
-
-#social-networks i {
-    font-size: 200%;
-    padding: 5%;
-    color: darkblue;
-}
-
 
 /*gallery page*/
 /* Media query: larg or landscape phones(576 and up)*/
@@ -371,7 +328,6 @@ footer {
     }
     
 }
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -452,6 +408,34 @@ footer {
     
         
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 60px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+}
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
