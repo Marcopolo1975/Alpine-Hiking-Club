@@ -61,7 +61,7 @@ h1 {
 
 #logo {
     margin-top: 10px;
-    padding-left: 20px;
+    padding-left: 5px;
 }
 
 #logo img {
@@ -180,12 +180,20 @@ main {
     color: #fafafa;
 }
 
-footer {
-   border: 2px solid #3a3a3a;
-    border-style: double;
-}
+
 
 /* Footer */
+
+footer {
+    border: 2px solid #3a3a3a;
+     border-style: double;
+ }
+
+ #contact {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+ }
 
 #social-networks {
     text-align: center;
