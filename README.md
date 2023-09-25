@@ -143,7 +143,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Code
 -  basic structure  code is inspired from love running project [Love runing](https://marcopolo1975.github.io/love-running/index.html)
-- Taken help from W3S throughout the project. for fixing different issues, like positioning the content on desired place and desired fromat. [W3Schooks](https://www.w3schools.com/)
+- Taken help from W3Schools throughout the project. for fixing different issues, like positioning the content on desired place and desired fromat. [W3Schools](https://www.w3schools.com/)
 - images are downloaded from Paxels.com [Pexels.com](https://www.pexels.com/photo/people-hiking-on-snow-covered-mountain-5311543/)
 
 - Taken help throughout the project from youtube tutorials for HTML and CSS. [YouTube css Tutorial](https://www.youtube.com/results?search_query=css+tutorial+for+beginners)
