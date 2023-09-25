@@ -65,9 +65,7 @@ h1 {
     padding-left: 5px;
 }
 
-#logo img {
-    padding-right: 5px;
-}
+
 
 #menu {
     font-size: 110%;
@@ -121,32 +119,40 @@ main {
 }
 
 .box img {
-    width:100%;
+    width: 100%;
+    height:auto;
 
     
 }
 
-#cover-text h2 {
+/* Cover text section*/
+
+#cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-  
-    text-align:center;
+
+    font-size: 130%;
+    text-align: center;
+    width: 100%;
+    min-height: 200px;
     padding-top: 40px;
   
 }
 
+
 #cover-text h4 {
     text-align: center;
-    color:rgb(0, 255, 251);
+    color:#3a3a3a;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #3a3a3a;
     
 }
 
 /* Alps image section*/
 #alps {
-    height: 300px;
+    height: auto;
     width: 100%;
-    background: url("../images/pexels-pixabay-273003.webp") no-repeat center center/cover;
-        position: relative;
+    background: url("../images/pexels-roman-pohorecki-585827.webp") no-repeat center center/cover;
+    position: relative;
         
 }
 
