@@ -96,6 +96,12 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS
+
 ### Features Left to Implement
 
 - working on new Ideas .
