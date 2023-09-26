@@ -34,8 +34,6 @@ The live link can be found here - [Alpine Hiking Club](https://marcopolo1975.git
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -92,9 +90,6 @@ this page is attractive and user-friendly.
 
 ![Sign Up](assets/Docs/sign-up.webp)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ## Technologies Used
 
