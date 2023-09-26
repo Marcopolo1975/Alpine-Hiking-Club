@@ -4,7 +4,33 @@ This website is a site where the hikers and outdoor activists can find everythin
 
 The goal of this website is to keep people physically and mentally fit . To motivate people for such interesting and adventures hobbies like hiking and tracking. over Goal is to provide people very easy access to these wonderful hobbies. We wish to be helpful is this way, building a healthy and positive society.
 
+The live link can be found here - [Alpine Hiking Club](https://marcopolo1975.github.io/Alpine-Hiking-Club/)
+
 ![Responsice Mockup](assets/Docs/responsiveness.webp)
+
+## Site Owner Goals 
+- To provide the user with information about hiking and tracking opportunities in Europ
+- provide the user information about the preparation and planning online facilities.
+- to provide the user a clear view of hiking locations and circumstances.
+-  to introduce the user to the other hobbyists by joining the club. 
+- To present the user with a website that is easy to navigate, fully responsive and invokes a sense of calm through the use of appropriate colours and imagery. 
+- To allow users to contribute experiences and sign up to the hiking Club Newsletter. 
+
+
+## User Stories
+- ### First time user
+  - As a first time user I want to understand the main purpose of the site and learn about the Hiking preparation and planning .
+  - As a first time user I want to be able to intuitively navigate the website and have a positive emotional experience. 
+  - As a first time user I want to be able to brow Hiking and Tricking content without having to sign-up / register.
+
+- ### Returning User
+  - As a returning user I want to easily navigate to  hiking location and appropriate training workshops or planning Webinars.  
+  - As a returning user I want to find step by step preparation of a Hiking tour.
+  - As a returning user I want to be able to know the people with same interests and share your experiences and useful information.
+
+- ### Frequent User
+  - As a frequent user I want to be able to sign-up to the Hiking Club  newsletter in order to get updates about upcoming events.
+  - As a frequent user I want to be able to contribute suggestion  and Tips with other users.
 
 ## Features 
 
