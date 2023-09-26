@@ -159,11 +159,6 @@ The live link can be found here - https://marcopolo1975.github.io/Alpine-Hiking-
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
- 
 ### Content 
 - Content on the landing  page was loosely based on hiking websites [hiking site](https://www.thehiking.club/)
 - All other content was written by the developer
@@ -177,9 +172,20 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+- The fonts used were imported from [Google Fonts](https://fonts.google.com/)
+
+
 ### Media
 
 - Photos for the project taken from Pexels.com
 [Pexels.com](https://www.pexels.com/photo/people-hiking-on-snow-covered-mountain-5311543/)
+
+
+
+### Acknowledgments
+
+Thanks to my facilitator Kay-ci  who gave me very good advices and feedback on how to plan and execute this project and who provided guidance throughout the project.
+
+thanks to my Mentor we met in the end of project but he ispired me with his positive and responsible attitude and give me useful tips to finalize the project. 
 
 
