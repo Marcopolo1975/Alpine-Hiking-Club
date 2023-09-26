@@ -19,7 +19,7 @@ In this section, you should go over the different parts of your project, and des
 
 ![Nav Bar](assets/Docs/Navbar.webp)
 
-- __The landing page image__
+- __The landing page__
 
   - The landing Page includes main image and photographs with titles and text and description and introduction of the specific event.  
   - This section introduces the user to The Alpine Hiking Club with an attractive  to grab their attention
