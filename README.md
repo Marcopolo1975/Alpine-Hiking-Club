@@ -1,15 +1,8 @@
 # ALPINE HIKING CLUB
 
-This website is a site where the hikers and outdoor actvists can find everything they desire. 
-As the people of Europe are found of outdoor activities, this site atracts the wast majority of people 
-hikers and trackers can join here to meet other people with same interests and hobbies.
-Theis site provides very easy excess to the traning sessions and planning sessions.
-website provides opportunities to hobbyists to fulfill there desires. 
- Site provides information about popular hiking and tracking locations of the Europe.
+This website is a site where the hikers and outdoor activists can find everything they desire. As the people of Europe are found of outdoor activities, this site attracts the wast majority of people hikers and trackers can join here to meet other people with same interests and hobbies. This site provides very easy excess to the training sessions and planning sessions. website provides opportunities to hobbyists to fulfill there desires. Site provides information about popular hiking and tracking locations of the Europe.
 
-The goal of this website is to keep people physically and mentally fit . To motivate people for such interesting and adventures hobbies like hiking and tracking. 
-over Goal is to provide people very easy access to these wonderful hobies. 
-We wish to be helpful is this way, building a healthy and positive society.
+The goal of this website is to keep people physically and mentally fit . To motivate people for such interesting and adventures hobbies like hiking and tracking. over Goal is to provide people very easy access to these wonderful hobbies. We wish to be helpful is this way, building a healthy and positive society.
 
 ![Responsice Mockup](assets/Docs/responsiveness.webp)
 
@@ -28,7 +21,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The landing Page includes main image and photographs with titles and text and description and introduction of the spacific event.  
+  - The landing Page includes main image and photographs with titles and text and description and introduction of the specific event.  
   - This section introduces the user to The Alpine Hiking Club with an attractive  to grab their attention
 
 ![Landing Page](assets/Docs/alps1.webp)
@@ -37,14 +30,16 @@ In this section, you should go over the different parts of your project, and des
 
   - In this section user will be introduced to the dream hiking location. 
 this section encourages new people to join the club and adopt a healthy and adventurous hobby.  
-  - There's brief description of different hiking locationc of Apls in different European countries. photographs of beautiful hiking loactions attracts users.
+  - There's brief description of different hiking locations of Apls in different European countries. photographs of beautiful hiking locations attracts users.
 ![Club Ethos](assets/Docs/Hiking-locations.webp)
 
 - __Events section__
 
-  - In this sections user finds upcoming events, those are very important for hiking and tracking Hobbyists.
-- Training Workshop . the traning workshops offers the mental and physical traning to make  people ready for hikes or tracking in different locations and weather conditions.
-  - Tour planing Webinar. this  Section offers webinars those covers all details you need to plan for a spacific loaction and weather conditions hiking Tour.
+  - Events section  In this sections user finds upcoming events, those are very important for hiking and tracking Hobbyists.
+- Training Workshop
+ the training workshops offers the mental and physical training to make people ready for hikes or tracking in different locations and weather conditions. 
+  - Tour planing Webinar 
+  this Section offers webinars those covers all details you need to plan for a specific location and weather conditions hiking Tour.
 
 ![upcoming Events](assets/Docs/upcoming-events.webp)
 
@@ -52,7 +47,7 @@ this section encourages new people to join the club and adopt a healthy and adve
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
-  - Conact information , like Email and Phone number are displayed also in footer .
+  - Contact information , like Email and Phone number are displayed also in footer .
 
 ![Footer](assets/Docs/footer.webp)
 
@@ -66,7 +61,7 @@ this section encourages new people to join the club and adopt a healthy and adve
 - __The Sign Up Page__
 
   - On the sign up page user can join the Club in one step. only have to provide name Email address .
-here user can choose the spacific Hiking tour or the training Workshop or the planning Webinars.
+here user can choose the specific Hiking tour or the training Workshop or the planning Webinars.
 this page is attractive and user-friendly. 
 
 ![Sign Up](assets/Docs/sign-up.webp)
@@ -88,8 +83,8 @@ the page is thoroughly tested by recommend validation sites.
 
 screenshot are below.
 during testing found only typing errors those are fixed successfully.
-for t -he performances check, page is tested with (lighthouse )
-there were some problem with images sizes and format, so the all images were converted to webp files. after replacing the image files with webp files. perfomance test achieved 100. 
+for the performances check, page is tested with (lighthouse )
+there were some problem with images sizes and format, so the all images were converted to webp files. after replacing the image files with webp files. performance test achieved 100. 
 screenshot is below.
 
 ### Validator Testing 
@@ -113,7 +108,7 @@ There are no unfixed bugs or Errors.
 
 ## Deployment
 
-Web page is successfuly deployed to Github. 
+Web page is successfully deployed to Github. 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -136,15 +131,15 @@ In this section you need to reference where you got your content, media and extr
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-### Content 
+ 
 ### Content 
 - Content on the landing  page was loosely based on hiking websites [hiking site](https://www.thehiking.club/)
 - All other content was written by the developer
 
 ### Code
--  basic structure  code is inspired from love running project [Love runing](https://marcopolo1975.github.io/love-running/index.html)
+-  basic structure  code is inspired from love running project [Love running](https://marcopolo1975.github.io/love-running/index.html)
 - Taken help from W3Schools throughout the project. for fixing different issues, like positioning the content on desired place and desired fromat. [W3Schools](https://www.w3schools.com/)
-- images are downloaded from Paxels.com [Pexels.com](https://www.pexels.com/photo/people-hiking-on-snow-covered-mountain-5311543/)
+- images are downloaded from Pexels.com [Pexels.com](https://www.pexels.com/photo/people-hiking-on-snow-covered-mountain-5311543/)
 
 - Taken help throughout the project from youtube tutorials for HTML and CSS. [YouTube css Tutorial](https://www.youtube.com/results?search_query=css+tutorial+for+beginners)
 
