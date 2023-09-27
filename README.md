@@ -142,7 +142,7 @@ Web page is successfully deployed to Github.
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://marcopolo1975.github.io/Alpine-Hiking-Club/
+The Github link can be found here - https://github.com/Marcopolo1975/Alpine-Hiking-Club
 
 ### Browser Compatibility
 
